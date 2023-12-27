@@ -55,23 +55,9 @@
 .sidebar,
 .footerpart {
   padding: 5px;
+  overflow: auto;
 }
-.headertext,.footertext{
-    height: 20px;
-    overflow: auto;
-}
-.sectiontext1{
-    height: 591px;
-    overflow: auto;
-}
-.sectiontext2{
-    height: 452px;
-    overflow: auto;
-}
-.sectiontext3{
-    height: 515px;
-    overflow: auto;
-}
+
 @media only screen and (max-width: 500px){
     .main{
             grid-template-rows: repeat(5, 8% 28% 28% 28% 8% );
@@ -95,21 +81,5 @@
     .footerpart{
         grid-row: 5/6;
         grid-column: 1/4;
-    }
-    .sectiontext1{
-        height: 97px;
-        overflow: auto;
-    }
-    .sectiontext2{
-        height: 97px;
-        overflow: auto;
-    }
-    .sectiontext3{
-        height: 97px;
-        overflow: auto;
-    }
-    .headertext,.footertext{
-        height: 13px;
-        overflow: auto;
     }
 }
